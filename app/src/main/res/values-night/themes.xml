@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PigeOn" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#507A9F</item>
+        <item name="colorPrimaryVariant">#2E465B</item>
+        <item name="colorOnPrimary">#FFFAFA</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#F4F8FB</item>
+        <item name="colorSecondaryVariant">#687887</item>
+        <item name="colorOnSecondary">#000000</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#63B0A7</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

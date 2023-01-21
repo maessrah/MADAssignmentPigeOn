@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/round_blue_grey"
+    tools:context=".Activities.RoleActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="372dp"
+            android:layout_height="543dp"
+
+            android:orientation="vertical"
+            android:layout_margin="30dp">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginBottom="100dp"
+                android:text="Choose Your Role"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/AdminBtn"
+                android:layout_width="159dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:background="@drawable/rounded"
+                android:padding="10dp"
+                android:text="Admin"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/JobSeekerBtn"
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded"
+                android:padding="10dp"
+                android:text="JobSeeker"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

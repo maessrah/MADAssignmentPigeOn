@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "88808211080",
+    "firebase_url": "https://pige-on-d89a9-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pige-on-d89a9",
+    "storage_bucket": "pige-on-d89a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88808211080:android:d2598e84e29f317ab9953d",
+        "android_client_info": {
+          "package_name": "com.example.pigeon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88808211080-clr9jge2ccc2abu9hdm32tk20ovkrqfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pigeon",
+            "certificate_hash": "e1cd829e1bfb2cfe6bd62b9ed6bb71bd28a89c20"
+          }
+        },
+        {
+          "client_id": "88808211080-uf451i89td4gkel93jokcnft6j7gb2qm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxfRa2vtU2_gXf8UF_gKrW-oP82SMEdTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88808211080-uf451i89td4gkel93jokcnft6j7gb2qm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

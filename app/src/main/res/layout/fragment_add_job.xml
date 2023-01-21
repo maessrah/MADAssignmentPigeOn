@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.AddJobFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#63B0A7"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundwhite"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/backBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ic_add_foreground"
+                    />
+
+                <TextView
+                    android:layout_width="179dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Add A Job"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/CompanyNameEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:hint="Company Name"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/JobTitleEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:hint="Job Title"
+                android:minHeight="48dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/JobSalaryEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:hint="Job Salary"
+                android:minHeight="48dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/JobStartDateEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:hint="DD/MM/YY"
+                android:minHeight="48dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/LocationEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:hint="Location"
+                android:minHeight="48dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/TotalOpeningsEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:hint="Transportation Requirement"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/SkillsRequiredEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:hint="Skills Required"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/AboutJobEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:hint="About the Job"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/AddationalInfoEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:hint="Additional Information"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="393dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp">
+
+                <LinearLayout
+                    android:layout_width="381dp"
+                    android:layout_height="match_parent"/>
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/AddJobBtn"
+                    android:layout_width="157dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/rounded"
+
+                    android:text="Publish Job" />
+
+                <Button
+                    android:id="@+id/CancelJobBtn"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/rounded"
+
+                    android:text="Cancel Job" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

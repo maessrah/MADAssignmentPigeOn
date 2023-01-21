@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AddImageActivity"
+    android:background="#507A9F">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:background="#507A9F">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            >
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/backBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:srcCompat="@drawable/ic_add_foreground" />
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="Upload Proof Of Work"
+                android:textSize="24sp"
+                android:translationX="10dp"
+                android:translationY="-40dp" />
+
+            <ImageView
+                android:id="@+id/proofImage"
+                android:layout_width="226dp"
+                android:layout_height="246dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="50dp"
+                app:srcCompat="@drawable/uploadimage" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/uploadProofBtn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_blue_grey"
+                android:gravity="center"
+                android:text="Upload" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#507A9F">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/compnayNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="Company Name"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/editTextCompanyName"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/roundwhite"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:text="Company Name"
+
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/jobTitleTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="Job Title"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+
+                android:textSize="20dp"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/editTextjobTitle"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/roundwhite"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:text="Job Title"
+
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/jobSalarytxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="Job Salary"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+
+                android:textSize="20dp"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/editTextjobSalary"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/roundwhite"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:text="Salary"
+
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/startDateTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="Start Date"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+
+                android:textSize="20dp"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/editTextstartDate"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/roundwhite"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:text="Start Date"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/joblocationTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="Job Location"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTextjobLocation"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/roundwhite"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:text="Job Location"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/totalOpeningTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="Transportation Requirement"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTexttotalOpening"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/roundwhite"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:text="Transportation Requirement"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/aboutJobsTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="about Jobs"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTextaboutJobs"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/roundwhite"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:text="About Jobs"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/skilssTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="Skills"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTextSkills"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/roundwhite"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:text="Skills"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/additionalInfoTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="Additional Info"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTextadditionalInfo"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/roundwhite"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:text="Additional Info"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/updateBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Update" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

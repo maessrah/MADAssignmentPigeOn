@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    android:padding="12dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/round_blue_grey">
+    <TextView
+        android:id="@+id/tv_rating"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:text="Rate your working experience with them!"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/ratingbar"
+        style="@style/Widget.AppCompat.RatingBar"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:isIndicator="false"
+        android:max="5"
+        android:outlineAmbientShadowColor="#2E465B"
+
+        android:padding="5dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Submit"
+        android:textSize="12dp"
+        android:id="@+id/submitRate"/>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PigeOn</string>
+    <string name="account"><font color='#000000'> Do no have an account?</font> <font color='#5b39c6'>Sign up</font> </string>
+    <string name="forgot_password"><u><font color='#000000'>Forgot your password?</font> </u></string>
+    <string name="Password"><u> Password </u></string>
+    <string name="login"> <font color='#000000'> Already have an account?</font> <font color='#000000'><u>Login</u></font> </string>
+    <string name="term"> I agree with this apps <font color='#000000'><u>Privacy Statement and Term of Services</u>
+    </font> </string>
+    <string name="title_activity_location_map">Location_Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

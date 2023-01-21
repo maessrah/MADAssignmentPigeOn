@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/homeMenu"
+        android:visible="true"
+        android:icon="@drawable/home__2_"
+        android:title="Home"
+        app:showAsAction="always"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/Dashboard"
+        android:visible="true"
+        android:icon="@drawable/dashboard"
+        android:title="DashBoard"
+        app:showAsAction="always"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/profileMenu"
+        app:showAsAction="always"
+        android:visible="true"
+        android:icon="@drawable/user"
+        android:title="Profile"
+        android:enabled="true"/>
+
+
+</menu>

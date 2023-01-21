@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.DisplayJobPostedFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#507A9F">
+        <TextView
+            android:id="@+id/advertising"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Advertise Your Jobs!!"
+            android:textSize="24dp"
+            android:textColor="#fffafa"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/JobsPostedRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#507A9F" />
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#507A9F"
+    tools:context=".Activities.SignUp_Page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="4dp"
+            android:text="SIGN IN"
+            android:textColor="#000000"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/editTextFirstName"
+            android:layout_width="307dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="First Name"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/editTextLastName"
+            android:layout_width="307dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/editTextAge"
+            android:layout_width="306dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Age"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="307dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="307dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="10dp"
+            android:autoText="false"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/editTextAddress"
+            android:layout_width="307dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/editTextPhone2"
+            android:layout_width="311dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <TextView
+            android:id="@+id/logInform"
+            android:layout_width="212dp"
+            android:layout_height="44dp"
+
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="@string/login" />
+
+        <RadioGroup
+            android:id="@+id/radiog"
+            android:layout_width="148dp"
+            android:layout_height="105dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/employer"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:onClick="checkButton"
+                android:text="Publish A Job"
+                android:textColor="#000000">
+
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/employee"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:minHeight="48dp"
+                android:onClick="checkButton"
+                android:text="Seek A Job"
+                android:textColor="#000000">
+
+            </RadioButton>
+
+        </RadioGroup>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signUpButton"
+            android:layout_width="121dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/round_blue_grey"
+            android:gravity="center"
+            android:text="Sign Up" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
